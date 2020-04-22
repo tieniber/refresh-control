@@ -1,0 +1,32 @@
+{
+  "name": "refresh-control",
+  "widgetName": "RefreshControl",
+  "version": "1.0.0",
+  "description": "My widget description",
+  "copyright": "Mendix 2019",
+  "author": "Eric Tieniber",
+  "config": {
+    "widgetPath": "/Volumes/[C] Windows 10/Mendix/Personal/TwoPly-main/widgets",
+    "projectPath": "/Volumes/[C] Windows 10/Mendix/Personal/TwoPly-main/"
+  },
+  "packagePath": "mendix",
+  "scripts": {
+    "start": "npm run dev",
+    "build": "pluggable-widgets-tools build:js:native",
+    "dev": "pluggable-widgets-tools start:js:native",
+    "lint": "pluggable-widgets-tools lint",
+    "lint:fix": "pluggable-widgets-tools lint:fix",
+    "prerelease": "npm run lint",
+    "release": "pluggable-widgets-tools release:js:native"
+  },
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/Eric Tieniber/refresh-control/issues"
+  },
+  "devDependencies": {
+    "@mendix/pluggable-widgets-tools": "^8.0.0"
+  },
+  "dependencies": {
+    "big.js": "^5.2.2"
+  }
+}
